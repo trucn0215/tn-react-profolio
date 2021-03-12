@@ -1,13 +1,12 @@
 import React from "react";
-import NavBar from "./NavBar";
+// import { Jumbotron, Col, Image } from "react-bootstrap";
 
 function Headers() {
     return (
-        <div className="jumbotron bg-info">
-            <div className="">
-                <h1 className="font-weight-bold">Truc Nguyen</h1>
-                <NavBar />
-            </div>
+        <div className="p-2">
+            <h1>
+                PROFOLIO
+            </h1>
         </div>
     )
 }
