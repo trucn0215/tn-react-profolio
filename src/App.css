@@ -1,3 +1,17 @@
+/* Whole page */
+#page{
+    background-color: rgb(51, 140, 151);
+}
+
+/* NavBar */
+#logoPhoto {
+    width: 50px;
+    border-radius: 10px;
+    border-style: outset;
+    border-width: 2px;
+    border-color: rgb(212, 156, 35);
+}
+
 /* header */
 #name{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -8,12 +22,18 @@
 #aboutme {
     font-weight: bold;
     font-family:'Times New Roman', Times, serif;
-    color: rgb(177, 226, 152);
+    color: rgb(212, 156, 35);
 }
 
 /* contacts */
 #contacts{
     font-weight: bold;
     font-family:'Times New Roman', Times, serif;
-    color: rgb(177, 226, 152);
+}
+
+.phone,
+.email,
+.gitHub,
+.linkedIn {
+    color: rgb(212, 156, 35);
 }

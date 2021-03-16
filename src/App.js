@@ -10,7 +10,7 @@ import Contacts from "./components/Contacts.js";
 
 function App(){
   return(
-    <Jumbotron fluid className="p-0 bg-info">
+    <Jumbotron id="page" fluid className="p-0">
         <NavBar />
       <div className="mx-auto " style={{ width: "60%"}}>
           <Headers />
