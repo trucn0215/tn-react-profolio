@@ -12,14 +12,13 @@ function Projects() {
 
     return (
         <div className="mb-1 p-2">
-            <h3>Projects</h3>
+            <h3 className="text-warning">Projects</h3>
 
             {/* Project 1 */}
             <Card className="my-3 border border-primary">
-                <Card.Img variant="top" src={Project1} style={{ width: "100%" }} />
+                <Card.Img variant="top" src={Project1} style={{ width: "100%", height: "250px"}} />
                 <Card.Body>
-                    <Card.Text>
-                        Project 1
+                    <Card.Text className="fs-3">
                         <div className="card1">
                             <a href="https://tomakpo.github.io/UWCB-P1-Trick-Trivia/">
                                 <span>
@@ -34,15 +33,14 @@ function Projects() {
 
             {/* Project 2 */}
             <Card className="my-3 border border-primary">
-                <Card.Img variant="top" src={Project2} style={{ width: "100%" }} />
+                <Card.Img variant="top" src={Project2} style={{ width: "100%", height: "250px" }} />
                 <Card.Body>
                     <Card.Text>
-                        Project 2
                         <div className="card2">
                             <a href="https://trucn0215.github.io/TN-Weather-Dashboard/">
                                 <span>
                                     <h3>Weather App</h3>
-                                    <em>Click to try</em>
+                                    <em>Click to try my App</em>
                                 </span>
                             </a>
                         </div>
@@ -52,15 +50,14 @@ function Projects() {
             
             {/* Project 3 */}
             <Card className="my-3 border border-primary">
-                <Card.Img variant="top" src={Project3} style={{ width: "100%" }} />
+                <Card.Img variant="top" src={Project3} style={{ width: "100%", height: "250px" }} />
                 <Card.Body>
                     <Card.Text>
-                        Project 3
                         <div className="card3">
                             <a href="https://trucn0215.github.io/TN-Day-Planner/">
                                 <span>
                                     <h3>Planner App</h3>
-                                    <em>Click to try</em>
+                                    <em>Click to try my App</em>
                                 </span>
                             </a>
                         </div>
@@ -70,15 +67,14 @@ function Projects() {
 
             {/* Project 4 */}
             <Card className="my-3 border border-primary">
-                <Card.Img variant="top" src={Project4} style={{ width: "100%" }} />
+                <Card.Img variant="top" src={Project4} style={{ width: "100%", height: "250px" }} />
                 <Card.Body>
                     <Card.Text>
-                        Project 4
                         <div className="card4">
                             <a href="https://trucn0215.github.io/TN-Password-Generator/">
                                 <span>
                                     <h3>Password Generator</h3>
-                                    <em>Click to try</em>
+                                    <em>Click to get your password</em>
                                 </span>
                             </a>
                         </div>
@@ -88,10 +84,9 @@ function Projects() {
 
             {/* Project 5 */}
             <Card className="my-3 border border-primary">
-                <Card.Img variant="top" src={Project5} style={{ width: "100%" }} />
+                <Card.Img variant="top" src={Project5} style={{ width: "100%", height: "250px" }} />
                 <Card.Body>
                     <Card.Text>
-                        Project 5
                         <div className="card5">
                             <a href="https://trucn0215.github.io/TN-Code-Quiz-Assignment/">
                                 <span>
@@ -106,15 +101,14 @@ function Projects() {
 
             {/* Project 6 */}
             <Card className="my-3 border border-primary">
-                <Card.Img variant="top" src={Project6} style={{ width: "100%" }} />
+                <Card.Img variant="top" src={Project6} style={{ width: "100%", height: "250px" }} />
                 <Card.Body>
                     <Card.Text>
-                        Project 6
                         <div className="card6">
                             <a href="https://tn-budget-tracker.herokuapp.com/">
                                 <span>
                                     <h3>Budget Tracker App</h3>
-                                    <em>Click to try</em>
+                                    <em>Click to try my App</em>
                                 </span>
                             </a>
                         </div>

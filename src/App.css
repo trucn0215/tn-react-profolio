@@ -1,25 +1,19 @@
-.card1 {
-    background-image: url(../src/components/img/Day-Planner.png);
+/* header */
+#name{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-bottom: 5px solid orange
 }
 
-/* .card2 {
-    background-image: url(../public/img/citySearched.png);
-    margin-bottom: 10px;
+/* About me */
+#aboutme {
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(177, 226, 152);
 }
 
-.card3 {
-    background-image: url(../public/img/citySearched.png);
+/* contacts */
+#contacts{
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(177, 226, 152);
 }
-
-.card4 {
-    background-image: url(../public/img/citySearched.png);
-}
-
-.card5 {
-    background-image: url(../public/img/citySearched.png);
-}
-
-.card6 {
-    background-image: url(../public/img/citySearched.png);
-} */
-

@@ -4,8 +4,8 @@ import React from "react";
 function Aboutme() {
     return (
         <div id="about" className="p-2">
-            <h2>About Me</h2>
-            <p>
+            <h2 className="text-warning">About Me</h2>
+            <p id="aboutme">
                 As an immigration, of course English is not my main language, I have to try and learn as hard as I can to
                 get used to new environment in a new country.
                 After years trying and learning during school years, I had completed my four years of Bachelor’s Degree

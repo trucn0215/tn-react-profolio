@@ -1,11 +1,13 @@
 import React from "react";
-// import { Jumbotron, Col, Image } from "react-bootstrap";
+// import { Card } from "react-bootstrap"
+import HeaderBackground from "./img/iStock-916778820.jpg"
+
 
 function Headers() {
     return (
-        <div className="p-2">
-            <h1>
-                PROFOLIO
+        <div className="text-light text-uppercase font-monospace">
+            <h1 id="name">
+                Truc Nguyen
             </h1>
         </div>
     )

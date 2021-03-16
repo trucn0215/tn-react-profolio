@@ -10,12 +10,15 @@ import Contacts from "./components/Contacts.js";
 
 function App(){
   return(
-    <Jumbotron fluid className="p-0">
+    <Jumbotron fluid className="p-0 bg-info">
         <NavBar />
-        <Headers />
-        <Aboutme />
-        <Projects />
-        <Contacts/>
+      <div className="mx-auto " style={{ width: "60%"}}>
+          <Headers />
+          <Aboutme />
+          <Projects />
+          <Contacts />
+        </div>
+
     </Jumbotron>
   )
 }
