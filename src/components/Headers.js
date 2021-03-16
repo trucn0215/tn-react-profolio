@@ -1,7 +1,4 @@
 import React from "react";
-// import { Card } from "react-bootstrap"
-import HeaderBackground from "./img/iStock-916778820.jpg"
-
 
 function Headers() {
     return (
