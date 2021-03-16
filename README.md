@@ -2,10 +2,8 @@
 
 # Table Content
 - [Description](#Description)
-- [User Story](#User-Story)
 - [Application Usage](#Application-Usage)
 - [Link](#Link)
-- [Screenshot](#Screenshot)
 
 ## Description
 Creating simple profolio webpage to show my works and my contact infomation. It will be look better over time.
